@@ -1,0 +1,37 @@
+{
+    "name": "woit/wit-clearprocessedfiles",
+    "type": "typo3-cms-extension",
+    "description": "Ckeditor dummy lorem ipsum text.",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "WIT",
+        "woit",
+        "clearprocessedfiles"
+    ],
+    "homepage": "https://extensions.typo3.org/extension/wit_clearprocessedfiles",
+    "authors": [
+        {
+            "name": "Team WebofficeIT, Rahul R S",
+            "email": "info@webofficeit.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+       "source": "https://github.com/webofficeit-official/wit_clearprocessedfiles"
+    },
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^11 || ^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Woit\\WitClearprocessedfiles\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "wit_clearprocessedfiles"
+        }
+    }
+}
