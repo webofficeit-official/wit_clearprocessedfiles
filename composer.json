@@ -1,7 +1,7 @@
 {
     "name": "woit/wit-clearprocessedfiles",
     "type": "typo3-cms-extension",
-    "description": "Ckeditor dummy lorem ipsum text.",
+    "description": "Clear processed files.",
     "keywords": [
         "TYPO3",
         "extension",
