@@ -14,12 +14,13 @@ Install the extension via Composer using the following composer name: `composer 
 - Compatible with TYPO3 versions 11 & 12.
 
 ## Usage
+![Usage](Documentation/Images/Wit_clear_processed_images.png)
+
 1. Navigate to the TYPO3 backend.
 2. Access the Clear Processed Files extension from the extension menu or directly from the Clear Caches dropdown in the navbar.
 3. Follow the on-screen instructions to clear processed files.
 4. Confirm the action when prompted.
 5. Enjoy a clutter-free fileadmin directory!
-![Usage](Documentation/Images/Wit_clear_processed_images.png)
 
 ## Contribution
 Contributions to this TYPO3 extension are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute code, please feel free to open an issue or submit a pull request.
