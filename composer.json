@@ -1,37 +1,59 @@
 {
-    "name": "woit/wit-clearprocessedfiles",
+    "name": "woit/wit-cleartempfiles",
     "type": "typo3-cms-extension",
-    "description": "Clear processed files.",
+    "description": "Simplify file maintenance in TYPO3 with our extension, designed to quickly and effectively clear processed files from your fileadmin directory.",
     "keywords": [
         "TYPO3",
         "extension",
         "WIT",
-        "woit",
-        "clearprocessedfiles"
+        "WOIT",
+        "cleartempfiles",
+        "processedfiles"
     ],
-    "homepage": "https://extensions.typo3.org/extension/wit_clearprocessedfiles",
+    "homepage": "https://extensions.typo3.org/extension/wit_cleartempfiles",
     "authors": [
         {
-            "name": "Team WebofficeIT, Rahul R S",
+            "name": "Team WebofficeIT, Sivaprasad",
             "email": "info@webofficeit.com",
             "role": "Developer"
         }
     ],
     "support": {
-       "source": "https://github.com/webofficeit-official/wit_clearprocessedfiles"
+       "source": "https://github.com/webofficeit-official/wit_cleartempfiles"
     },
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^11 || ^12"
+        "typo3/cms-core": "^11.5 || ^12.4"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^6.9.0"
     },
     "autoload": {
         "psr-4": {
-            "Woit\\WitClearprocessedfiles\\": "Classes"
+            "Woit\\WitCleartempfiles\\": "Classes"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Woit\\WitCleartempfiles\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/wit-cleartempfiles": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+        ]
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "wit_clearprocessedfiles"
+            "web-dir": ".Build/Web",
+            "extension-key": "wit_cleartempfiles"
         }
     }
 }

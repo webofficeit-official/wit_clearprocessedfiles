@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wit_cleartempfiles/Resources/Private/Language/locallang_db.xlf" date="2024-03-06T15:27:32Z" product-name="wit_cleartempfiles">
+		<header/>
+		<body>
+			<trans-unit id="tx_witcleartempfiles_domain_model_witcleartempfiles" resname="tx_witcleartempfiles_domain_model_witcleartempfiles">
+				<source>Witcleartempfiles</source>
+			</trans-unit>
+			<trans-unit id="tx_witcleartempfiles_domain_model_witcleartempfiles.description" resname="tx_witcleartempfiles_domain_model_witcleartempfiles.description">
+				<source>Witcleartempfiles</source>
+			</trans-unit>
+			<trans-unit id="tx_witcleartempfiles_domain_model_witcleartempfiles.cleartempfiles" resname="tx_witcleartempfiles_domain_model_witcleartempfiles.cleartempfiles">
+				<source>Cleartempfiles</source>
+			</trans-unit>
+			<trans-unit id="tx_witcleartempfiles_domain_model_witcleartempfiles.cleartempfiles.description" resname="tx_witcleartempfiles_domain_model_witcleartempfiles.cleartempfiles.description">
+				<source>Cleartempfiles</source>
+			</trans-unit>
+			<trans-unit id="tx_wit_cleartempfiles_cleartempfiles.name" resname="tx_wit_cleartempfiles_cleartempfiles.name">
+				<source>Test</source>
+			</trans-unit>
+			<trans-unit id="tx_wit_cleartempfiles_cleartempfiles.description" resname="tx_wit_cleartempfiles_cleartempfiles.description">
+				<source>wit_cleartempfiles</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

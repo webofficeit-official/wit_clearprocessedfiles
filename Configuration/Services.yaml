@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Woit\WitCleartempfiles\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+
+  Woit\WitCleartempfiles\EventsListener\ModifyClearCacheActionsEventListener:
+    tags:
+      - name: event.listener
+        identifier: 'wit-cleartempfiles/toolbar/clear-cache-event-listener'
