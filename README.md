@@ -15,12 +15,18 @@ Install the extension via Composer using the following composer name: `composer 
 
 ## Usage
 ![Usage](Documentation/Images/Wit_clear_processed_images.png)
+![Usage](Documentation/Images/Wit_user_tsconfig.png)
 
 1. Navigate to the TYPO3 backend.
-2. Access the Clear Processed Files extension from the extension menu or directly from the Clear Caches dropdown in the navbar.
-3. Follow the on-screen instructions to clear processed files.
-4. Confirm the action when prompted.
-5. Enjoy a clutter-free fileadmin directory!
+2. Edit the backend user & add the below code into User tsconfig
+```html
+options.enableModifyClearCache = 1
+```
+3. Save config & clear cache.
+4. Login as the new/edited user & access directly from the Clear Caches dropdown in the navbar.
+5. Follow the on-screen instructions to clear processed files.
+6. Confirm the action when prompted.
+7. Enjoy a clutter-free fileadmin directory!
 
 ## Contribution
 Contributions to this TYPO3 extension are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute code, please feel free to open an issue or submit a pull request.

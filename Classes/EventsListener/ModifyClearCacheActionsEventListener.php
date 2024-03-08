@@ -29,6 +29,11 @@ class ModifyClearCacheActionsEventListener
             return;
         }
 
+        $enableEventListener = (bool)$GLOBALS['BE_USER']->getTSConfig()['options.']['enableModifyClearCache'];
+        if (!$enableEventListener) {
+            return;
+        }
+
         // add cache action
         $uriBuilder = GeneralUtility::makeInstance(UriBuilder::class);
         $uriBuilder->buildUriFromRoute('ajax_witcleartemfiles_clear_processed_files');
