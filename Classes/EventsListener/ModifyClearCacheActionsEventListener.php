@@ -24,13 +24,10 @@ class ModifyClearCacheActionsEventListener
 {
     public function __invoke(ModifyClearCacheActionsEvent $modifyClearCacheActionsEvent): void
     {
-        // process for admin users only
-        if (!$GLOBALS['BE_USER']->isAdmin()) {
-            return;
-        }
-
         $enableEventListener = (bool)$GLOBALS['BE_USER']->getTSConfig()['options.']['enableModifyClearCache'];
-        if (!$enableEventListener) {
+
+        // process for admin users only
+        if (!$GLOBALS['BE_USER']->isAdmin() || !$enableEventListener) {
             return;
         }
 
