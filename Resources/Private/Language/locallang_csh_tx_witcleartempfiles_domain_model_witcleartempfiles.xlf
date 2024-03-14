@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wit_cleartempfiles/Resources/Private/Language/locallang_csh_tx_witcleartempfiles_domain_model_witcleartempfiles.xlf" date="2024-03-06T15:27:32Z" product-name="wit_cleartempfiles">
+		<header/>
+		<body>
+			<trans-unit id="cleartempfiles.description" resname="cleartempfiles.description">
+				<source>cleartempfiles</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

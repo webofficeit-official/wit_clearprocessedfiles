@@ -1,0 +1,4 @@
+# Disable the event listener for all other users
+[global]
+    options.enableModifyClearCache = 0
+[global]

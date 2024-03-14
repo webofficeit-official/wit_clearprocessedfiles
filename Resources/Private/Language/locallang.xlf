@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wit_cleartempfiles/Resources/Private/Language/locallang.xlf" date="2024-03-06T15:27:32Z" product-name="wit_cleartempfiles">
+		<header/>
+		<body>
+			<trans-unit id="backend_clear_cache_title" resname="be_clear_cache_title" >
+                <source>Clear Processed Files</source>
+            </trans-unit>
+            <trans-unit id="backend_clear_cache_description" resname="be_clear_cache_description" >
+                <source>This command will clear all the generated processed files.</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
