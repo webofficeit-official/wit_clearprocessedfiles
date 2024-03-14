@@ -14,8 +14,9 @@ Install the extension via Composer using the following composer name: `composer 
 - Compatible with TYPO3 versions 11 & 12.
 
 ## Usage
-![Usage](Documentation/Images/Wit_clear_processed_images.png)
 ![Usage](Documentation/Images/Wit_user_tsconfig.png)
+
+![Usage](Documentation/Images/Wit_clear_processed_images.png)
 
 1. Navigate to the TYPO3 backend.
 2. Edit the backend user & add the below code into User tsconfig
